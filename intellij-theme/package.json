@@ -1,0 +1,21 @@
+{
+    "name": "intellij-theme",
+    "displayName": "intellij-theme",
+    "description": "A color theme that matches the standart color theme in Intellij's IDEs",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Intellij Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Intellij Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
